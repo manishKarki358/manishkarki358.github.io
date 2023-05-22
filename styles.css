@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Metal+Mania&family=Poppins:wght@300;400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.content {
+  display: none;
+}
+
+.starting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.yes, .no {
+  padding: 0 10px;
+  font-size: 3rem;
+  border-radius: 10px;
+  border: none;
+  margin: 20px;
+}
+
+.toshowifno {
+  display: none;
+  background-image: url(./scared.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.ready {
+  font-size: 5.5rem;
+  color: darkred;
+}
+
+.yes {
+  background-color: red;
+  color: white;
+}
+
+.no {
+  background-color: white;
+  color: red;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  flex-direction: column;
+  color: white;
+}
+
+.landing-page {
+  background-image: url(./sharingan.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-direction: column;
+}
+
+a .heading {
+  font-family: "Metal Mania", cursive;
+  font-size: 6rem;
+  letter-spacing: 3px;
+  font-size: 5.5rem;
+  text-shadow: 2px 2px red;
+  color: wheat;
+}
+
+.intro {
+  padding: 30px;
+  font-size: 2rem;
+  opacity: 0.9;
+  color: rgb(189, 167, 167);
+}
+
+.gif {
+  height: 300px;
+  width: 250px;
+  border-radius: 20px;
+}
+
+.textofstory {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.story {
+  margin-top: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.story1 {
+  background-image: url(mansion.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: darkred;
+  margin-top: 100px;
+  text-shadow: 2px 2px rgb(238, 5, 52);
+}
+
+.story2 {
+  background-image: url(screaming.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 55%;
+  width: 55%;
+  text-align: center;
+  color: red;
+}
+
+.story3 {
+  background-image: url(spirit.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(92, 3, 21);
+  height: 70%;
+  width: 70%;
+  padding: 40px 20px;
+  text-shadow: 0.1px 0.1px green;
+}
+
+.story4 {
+  background-image: url(doom.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: red;
+  text-shadow: 2px 1px darkgreen;
+  height: 40%;
+  width: 40%;
+}
+
+.story5 {
+  background-image: url(door.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60%;
+  width: 60%;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  font-weight: bolder;
+  text-shadow: 1px 1px darkred;
+  color: red;
+}
+
+.textofstory5 {
+  font-family: "Metal Mania", cursive;
+  letter-spacing: 4px;
+  word-spacing: 5px;
+  color: green;
+}
+
+.story6 {
+  background-image: url(basement.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 75%;
+  width: 75%;
+  font-weight: bolder;
+  padding: 50px;
+  color: black;
+}
+
+.story7 {
+  background-image: url(bloodscream.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80%;
+  width: 80%;
+  color: rgb(212, 26, 26);
+}
+
+.story8 {
+  background-image: url(curse.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: darkred;
+  text-shadow: 0.01px 0.01px gray;
+}/*# sourceMappingURL=styles.css.map */
