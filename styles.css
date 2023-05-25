@@ -20,7 +20,7 @@
 
 .yes, .no {
   padding: 0 10px;
-  font-size: 3rem;
+  font-size: 2.5rem;
   border-radius: 10px;
   border: none;
   margin: 20px;
@@ -75,7 +75,7 @@ body {
   flex-direction: column;
 }
 
-a .heading {
+.heading {
   font-family: "Metal Mania", cursive;
   font-size: 6rem;
   letter-spacing: 3px;
@@ -207,7 +207,7 @@ a .heading {
   font-family: "Metal Mania", cursive;
   letter-spacing: 4px;
   word-spacing: 5px;
-  color: green;
+  color: black;
 }
 
 .story6 {
@@ -261,4 +261,55 @@ a .heading {
 
 .textofstory8 {
   font-size: 3.5rem;
+  text-shadow: 1px 2px black;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Adjustments for small screen devices */
+  .intro {
+    font-size: 1.5rem;
+  }
+  .textofstory {
+    font-size: 1.8rem;
+  }
+  .textofstory1 {
+    font-size: 2rem;
+  }
+  .textofstory5 {
+    font-size: 2.2rem;
+  }
+  .textofstory8 {
+    font-size: 2.2rem;
+  }
+  .ready {
+    font-size: 2rem;
+  }
+  .yes, .no {
+    font-size: 1.5rem;
+  }
+  .story {
+    width: 300px;
+  }
+  .story1 {
+    width: 360px;
+  }
+  h1 .heading {
+    font-size: 30px;
+    color: red;
+  }
+  .textofstory2 {
+    font-size: 1.5rem;
+  }
+  .story {
+    width: 350px;
+  }
+  .story1 {
+    background-size: contain;
+  }
+  .textofstory1 {
+    font-size: 1.5rem;
+  }
+  .heading {
+    font-size: 4rem;
+  }
 }/*# sourceMappingURL=styles.css.map */

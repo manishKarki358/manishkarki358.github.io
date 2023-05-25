@@ -1,24 +1,5 @@
 gsap.registerPlugin(ScrollTrigger);
-gsap.to(".story2", {
-  x: 350,
-  y:-200, // Animate back to its original position
-  duration: 3,
-  scrollTrigger: {
-    trigger: ".story2",
-    start: "top center",
-    end: "bottom center",
-  }
-});
-gsap.to(".story4", {
-  x: 500,
-  y:200, // Animate back to its original position
-  duration: 3,
-  scrollTrigger: {
-    trigger: ".story4",
-    start: "top center",
-    end: "bottom center",
-  }
-});
+
 
 
 
