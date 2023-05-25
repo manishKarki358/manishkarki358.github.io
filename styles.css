@@ -127,6 +127,10 @@ a .heading {
   text-shadow: 2px 2px rgb(238, 5, 52);
 }
 
+.textofstory1 {
+  font-size: 3.5rem;
+}
+
 .story2 {
   background-image: url(screaming.jpg);
   background-position: center;
@@ -253,4 +257,8 @@ a .heading {
   flex-direction: column;
   color: darkred;
   text-shadow: 0.01px 0.01px gray;
+}
+
+.textofstory8 {
+  font-size: 3.5rem;
 }/*# sourceMappingURL=styles.css.map */
