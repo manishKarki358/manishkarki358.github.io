@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(28, 27, 27);
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: grid;
+    grid-template-columns: 190px 630px auto;
+    column-gap: 10px;
+}
+button.logoBtn{
+    outline: none;
+   border: none;
+   background-color: transparent;
+   padding-left: 10px;
+
+}
+.logo{
+  
+    padding: 10px;
+color: rgb(185, 123, 7);
+font-size: 2.5rem;
+cursor: pointer;
+}
+.sub-logo{
+    color: rgb(202, 196, 196);
+    font-size: 2.3rem;
+
+}
+
+.search-btn{
+    width: 620px;
+    padding: 20px;
+    position: relative;
+}
+
+.search-btn i {
+    position: absolute;
+    top: 51%;
+    margin-left: 0;
+    background-color: rgb(170, 199, 170);
+    padding: 5px 12px;
+    right: 1px;
+    transform: translateY(-50%);
+    color: #c23939;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.search{
+    padding-left: 15px;
+    width: 600px;
+    height: 2.8rem;
+    border-radius: 10px;
+    border: none;
+    caret-shape: bar;
+    caret-color: #c23939;
+}
+.products, .returns-orders-cart{
+   
+    
+    display: flex;
+   justify-content: right;
+   width: fit-content;
+   margin-right: 30px;
+   
+}
+
+.products a, .returns-orders-cart a{
+    text-decoration: none;
+    list-style: none;
+    padding-right: 20px;
+    font-size: 1.4rem;
+}
+.returns-orders-cart{
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.returns-orders-cart a{
+    color:  #9df379;;
+    padding-right: 25px;
+    font-size: 1.6rem;
+}
+.returns-orders-cart a:hover{
+    color: #f1aeae;   
+}
+
+.search:focus{
+    outline: none;
+}
+input::placeholder {
+    
+    color: blue;
+  
+    font-size: 1rem;
+}
+.nav-item1, .nav-item2, .nav-item3 {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-item1 i, .nav-item2 i, .nav-item3 i   {
+    margin-left: 5px;
+    color: wheat;
+
+   
+  }
+  .nav-item2 i{
+    color: yellow;
+    font-size: 17px;
+  }
+  
