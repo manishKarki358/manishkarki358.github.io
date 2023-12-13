@@ -36,7 +36,7 @@ cursor: pointer;
 }
 
 .search-btn{
-    width: 620px;
+    width: 720px;
     padding: 20px;
     position: relative;
 }
@@ -44,7 +44,7 @@ cursor: pointer;
 .search-btn i {
     position: absolute;
     top: 51%;
-    margin-left: 0;
+    
     background-color: rgb(170, 199, 170);
     padding: 5px 12px;
     right: 1px;
@@ -56,14 +56,14 @@ cursor: pointer;
 }
 .search{
     padding-left: 15px;
-    width: 600px;
+    width: 701px;
     height: 2.8rem;
     border-radius: 10px;
     border: none;
     caret-shape: bar;
     caret-color: #c23939;
 }
-.products, .returns-orders-cart{
+.products{
    
     
     display: flex;
@@ -73,22 +73,34 @@ cursor: pointer;
    
 }
 
-.products a, .returns-orders-cart a{
+.products a{
     text-decoration: none;
     list-style: none;
     padding-right: 20px;
     font-size: 1.4rem;
 }
 .returns-orders-cart{
+    display: flex;
+    justify-content: right;
+    width: fit-content;
+    margin-right: 30px;
+    
     margin-top: 25px;
-    margin-left: 35px;
+    margin-left: 125px;
 }
 .returns-orders-cart a{
     color:  #9df379;;
     padding-right: 25px;
     font-size: 1.6rem;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 20px;
+    font-size: 1.4rem;
 }
 .returns-orders-cart a:hover{
+    color: #f1aeae;   
+}
+.returns-orders-cart a i:hover{
     color: #f1aeae;   
 }
 
@@ -114,6 +126,11 @@ input::placeholder {
   }
   .nav-item2 i{
     color: yellow;
-    font-size: 17px;
+    font-size: 22px;
   }
-  
+  .nav-item3 i {
+    color: yellow;
+  }
+  .nav-item1 i {
+    color: yellow;
+  }
