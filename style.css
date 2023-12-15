@@ -147,7 +147,7 @@ padding: 20px;
 .categories a{
     list-style: none;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.57rem;
     color: rgb(254, 110, 110);
     transition: 0.5s all;
     border:1px solid transparent ;
@@ -164,7 +164,7 @@ padding: 20px;
 .videos{
     position: relative;
     width: 800px;
-    left: 3%;
+    left: 6%;
 }
 video{
     width: 800px;
