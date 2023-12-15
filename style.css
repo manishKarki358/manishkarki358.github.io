@@ -9,11 +9,17 @@ body{
     background-color: rgb(28, 27, 27);
     margin: 0;
     padding: 0;
+  
 }
 header{
     display: grid;
     grid-template-columns: 190px 630px auto;
     column-gap: 10px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(41, 4, 4);
+    
+    
 }
 button.logoBtn{
     outline: none;
@@ -63,22 +69,9 @@ cursor: pointer;
     caret-shape: bar;
     caret-color: #c23939;
 }
-.products{
-   
-    
-    display: flex;
-   justify-content: right;
-   width: fit-content;
-   margin-right: 30px;
-   
-}
 
-.products a{
-    text-decoration: none;
-    list-style: none;
-    padding-right: 20px;
-    font-size: 1.4rem;
-}
+
+
 .returns-orders-cart{
     display: flex;
     justify-content: right;
@@ -89,16 +82,19 @@ cursor: pointer;
     margin-left: 125px;
 }
 .returns-orders-cart a{
-    color:  #9df379;;
-    padding-right: 25px;
-    font-size: 1.6rem;
+    color:  #b1aff7;;
+    
+    
     text-decoration: none;
     list-style: none;
-    padding-right: 20px;
-    font-size: 1.4rem;
+    padding-right: 22px;
+    padding-left: 5px;
+    font-size: 1.3rem;
+    border: 1px solid transparent;
 }
 .returns-orders-cart a:hover{
-    color: #f1aeae;   
+    color: #fa6e6e;   
+    border: 1px solid white;
 }
 .returns-orders-cart a i:hover{
     color: #f1aeae;   
@@ -134,3 +130,149 @@ input::placeholder {
   .nav-item1 i {
     color: yellow;
   }
+.products-categories{
+    position: absolute;
+    right: 3%;
+    margin-top: 20px;
+    background-color: rgba(0, 2, 0, 0.1);
+    border-radius: 10px;
+    top: 15%;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+padding: 20px;
+
+}
+.categories a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: rgb(254, 110, 110);
+    transition: 0.5s all;
+    border:1px solid transparent ;
+    
+}
+.categories a:hover{
+    color: rgb(251, 251, 251);
+    border: 1px solid black;
+}
+.categories a li{
+    padding: 2px 5px;
+   
+}
+.videos{
+    position: relative;
+    width: 800px;
+    left: 3%;
+}
+video{
+    width: 800px;
+    height: 500px;
+}
+
+.left{
+    position: absolute;
+top:40%;
+left: 0;
+border: none;
+font-size: 3rem;
+cursor: pointer;
+}
+.right{
+    position: absolute;
+top:40%;
+right: 0;
+border: none;
+font-size: 3rem;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+  .image-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 280px;
+    margin-top: 50px;
+    border: 1px solid purple;
+  }
+
+  .image-container img {
+    height: 450px;
+    width: 800px; 
+   
+    display: block; 
+  object-fit: cover ;
+  background-size: 40%;
+ 
+  }
+
+  .overlay-text {
+      position: absolute;
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%);
+      color: rgb(1, 18, 1);
+      font-size: 3.5rem; 
+      font-weight: bold; 
+      text-align: center; 
+      text-shadow: 1px 1px rgb(89, 71, 247);
+      background-color: rgba(255, 255, 255, 0.2);
+      
+  }
+
+  .ad-images{
+    position: relative;
+    width: 800px;
+    height: 450px;
+    left: 300px;
+    
+  }
+.ad-images img,.ad-images video{
+  
+    width: 800px;
+    height: 450px;
+}
+
+.left{
+    position: absolute;
+    top: 35%;
+    bottom: 38%;
+    left: 0;
+    outline: none;
+    font-size: 4rem;
+   color: rgb(1, 1, 66);
+    cursor: pointer;
+    padding: 20px 10px;
+    background: rgba(239, 38, 38, 0.2);
+}
+.right{
+    position: absolute;
+    top: 35%;
+    bottom: 38%;
+    right: 0;
+    outline: none;
+    font-size: 4rem;
+    color: rgb(1, 1, 66);
+    cursor: pointer;
+    padding: 20px 10px;
+    background: rgba(239, 38, 38, 0.2);
+    cursor: pointer;
+}
+.left i{
+    background-color: blue;
+}
+*/
