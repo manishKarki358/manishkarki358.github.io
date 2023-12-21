@@ -29,4 +29,36 @@ window.addEventListener('DOMContentLoaded',(()=>{
 }))
 */
 
-  
+const videoPlayer = document.querySelector('.current-video');
+const videoFiles = ['fashion.mp4','books.mp4', 'cosmetics.mp4', 'lapcom.mp4']; 
+let currentVideoIndex = 0;
+const slideshowInterval = 6000;
+
+function playVideo(index) {
+  if (index >= 0 && index < videoFiles.length) {
+    videoPlayer.src = videoFiles[index];
+    videoPlayer.load();
+    videoPlayer.play();
+    currentVideoIndex = index;
+  }
+}
+
+function nextVideo() {
+  currentVideoIndex = (currentVideoIndex + 1) % videoFiles.length;
+  playVideo(currentVideoIndex);
+}
+
+function prevVideo() {
+  currentVideoIndex = (currentVideoIndex - 1 + videoFiles.length) % videoFiles.length;
+  playVideo(currentVideoIndex);
+}
+function startSlideshow() {
+  setInterval(() => {
+    nextVideo();
+  }, slideshowInterval);
+}
+
+
+// Initial video load
+playVideo(currentVideoIndex);
+startSlideshow();
