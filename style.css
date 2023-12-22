@@ -9,7 +9,7 @@ body{
     background-color: rgb(28, 27, 27);
     margin: 0;
     padding: 0;
-  
+ overflow-x: hidden;
 }
 header{
     display: grid;
@@ -92,8 +92,7 @@ cursor: pointer;
     font-size: 1.3rem;
     border: 1px solid transparent;
 }
-.returns-orders-cart a:hover{
-    color: #fa6e6e;   
+.returns-orders-cart a:hover{   
     border: 1px solid white;
 }
 .returns-orders-cart a i:hover{
@@ -277,3 +276,80 @@ cursor: pointer;
     background-color: blue;
 }
 */
+.products-intro{
+    margin-left: 28%;
+    text-align: center;
+    font-size: 3rem;
+    color: green;
+    background-color: rgba(207, 181, 241, 0.6 );
+   width: 650px;
+   padding: 10px;
+   margin-bottom: 50px;
+   margin-top: 50px;
+   border-top-right-radius: 30px;
+   border-bottom-left-radius: 30px;
+}
+
+
+.products-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.product-card {
+    border: 1px solid #515050;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 60px;
+    width: 300px;
+    box-sizing: border-box;
+    background-color: black;
+   
+
+}
+.product-card:hover .product-title{
+    background-color: rgba(29, 88, 238, 0.2);
+    transition: all 0.2s ease-in;
+}
+.product-card:hover{
+    box-shadow: 0 0 25px rgba(224, 213, 213, 0.2);
+transition: all 0.2s ease-in;
+
+}
+.product-title {
+    
+    padding: 10px;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgba(29, 88, 238, 0.1);
+}
+
+.product-image {
+    height: 230px;
+    width: 250px;
+ 
+   
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: wheat;
+    background-color: rgba(0, 0, 255,0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+.category {
+    color: #fc5c5c;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* Add more styles as needed */

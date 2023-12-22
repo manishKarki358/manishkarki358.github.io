@@ -62,3 +62,36 @@ function startSlideshow() {
 // Initial video load
 playVideo(currentVideoIndex);
 startSlideshow();
+
+fetch('https://fakestoreapi.com/products?limit=21')
+    .then(res => res.json())
+    .then(json => {
+ 
+        json.push({
+            title: "Pro Biker Black Gloves",
+            image: "https://static-01.daraz.com.np/p/f063f7d41fb7998514b9faaaf3f39c0d.jpg_300x0q75.webp",
+            price: "10",
+            category: "Clothings"
+        });
+
+        console.log(json);
+
+        const productContainer = document.querySelector('.products-details');
+
+        function generateProductHTML(product) {
+            return `
+                <div class="product-card">
+                    <h2 class="product-title">${product.title}</h2>
+                    <img src=${product.image} class="product-image">
+                    <p class="price">Price: $${product.price}</p>
+                    <p class="category">Category: ${product.category}</p>
+                </div>
+            `;
+        }
+
+        json.forEach(product => {
+            productContainer.innerHTML += generateProductHTML(product);
+        });
+    });
+
+    
