@@ -73,6 +73,12 @@ fetch('https://fakestoreapi.com/products?limit=21')
             price: "10",
             category: "Clothings"
         });
+        [json[2], json[7]] = [json[7], json[2]];
+        [json[4], json[7]] = [json[7], json[4]];
+        [json[7], json[9]] = [json[9], json[7]];
+        [json[12], json[15]] = [json[15], json[12]];
+        [json[6], json[17]] = [json[17], json[6]];
+        [json[17], json[19]] = [json[19], json[17]];
 
         console.log(json);
 

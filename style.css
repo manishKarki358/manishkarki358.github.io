@@ -188,100 +188,12 @@ font-size: 3rem;
 cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-  .image-container {
-    position: relative;
-    display: inline-block;
-    margin-left: 280px;
-    margin-top: 50px;
-    border: 1px solid purple;
-  }
-
-  .image-container img {
-    height: 450px;
-    width: 800px; 
-   
-    display: block; 
-  object-fit: cover ;
-  background-size: 40%;
- 
-  }
-
-  .overlay-text {
-      position: absolute;
-      top: 50%; 
-      left: 50%; 
-      transform: translate(-50%, -50%);
-      color: rgb(1, 18, 1);
-      font-size: 3.5rem; 
-      font-weight: bold; 
-      text-align: center; 
-      text-shadow: 1px 1px rgb(89, 71, 247);
-      background-color: rgba(255, 255, 255, 0.2);
-      
-  }
-
-  .ad-images{
-    position: relative;
-    width: 800px;
-    height: 450px;
-    left: 300px;
-    
-  }
-.ad-images img,.ad-images video{
-  
-    width: 800px;
-    height: 450px;
-}
-
-.left{
-    position: absolute;
-    top: 35%;
-    bottom: 38%;
-    left: 0;
-    outline: none;
-    font-size: 4rem;
-   color: rgb(1, 1, 66);
-    cursor: pointer;
-    padding: 20px 10px;
-    background: rgba(239, 38, 38, 0.2);
-}
-.right{
-    position: absolute;
-    top: 35%;
-    bottom: 38%;
-    right: 0;
-    outline: none;
-    font-size: 4rem;
-    color: rgb(1, 1, 66);
-    cursor: pointer;
-    padding: 20px 10px;
-    background: rgba(239, 38, 38, 0.2);
-    cursor: pointer;
-}
-.left i{
-    background-color: blue;
-}
-*/
 .products-intro{
     margin-left: 28%;
     text-align: center;
     font-size: 3rem;
-    color: green;
-    background-color: rgba(207, 181, 241, 0.6 );
+    color: rgb(1, 40, 1);
+    background-color: rgba(155, 83, 249, 0.6);
    width: 650px;
    padding: 10px;
    margin-bottom: 50px;
@@ -308,7 +220,7 @@ cursor: pointer;
     width: 300px;
     box-sizing: border-box;
     background-color: black;
-   
+   height: fit-content;
 
 }
 .product-card:hover .product-title{
@@ -350,6 +262,81 @@ transition: all 0.2s ease-in;
     color: #fc5c5c;
     font-size: 1.2em;
     text-align: center;
+    padding-top: 10px;
 }
 
-/* Add more styles as needed */
+@media only screen and (max-width: 600px) {
+    header {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: auto;
+    }
+
+    .search-btn {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .search-btn i {
+        right: 20px;
+    }
+
+    .search {
+        width: 330px;
+    }
+
+    .returns-orders-cart {
+        margin: 10px;
+        margin-left: 50px;
+    }
+
+    .returns-orders-cart a {
+        padding-right: 10px;
+        padding-left: 5px;
+        font-size: 1rem;
+    }
+    .products-categories {
+        position: static;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .categories {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .categories a {
+        font-size: 1.2rem;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .products-intro {
+        margin-left: 5%;
+        width: 90%;
+        font-size: 1.5rem;
+    }
+
+    .videos,
+    video {
+        width: 95%;
+        height: auto;
+
+    }
+    .product-title{
+        font-size: 1rem;
+    }
+    .price{
+        font-size: 0.8rem;
+    }
+    .category{
+        font-size: 0.9rem;
+    }
+    .left,.right{
+        font-size: 2.5rem;
+    }
+}
