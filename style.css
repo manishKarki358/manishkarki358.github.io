@@ -10,7 +10,16 @@ body{
     margin: 0;
     padding: 0;
  overflow-x: hidden;
+ color: aliceblue;
+ text-align: center;
+ font-size: 1.5rem;
 }
+button{
+    padding: 15px;
+    margin: 10px;
+
+}
+/*
 header{
     display: grid;
     grid-template-columns: 190px 630px auto;
@@ -340,3 +349,6 @@ transition: all 0.2s ease-in;
         font-size: 2.5rem;
     }
 }
+    */
+
+    
