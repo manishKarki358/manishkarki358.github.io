@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>   I love you aachal !!!!</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/e49e0847db.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body>
+   <h2>💬 Public Comment Box</h2>
+  
+  <input type="text" id="name" placeholder="Your name" size="30">
+  <br><br>
+  <textarea id="comment" placeholder="Write your comment..." rows="3" cols="50"></textarea><br>
+  <button onclick="postComment()">Post</button>
+  
+  <div id="comments"></div>
+</body>
+   <script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyCvf3_PET1cRFHJHdYroQt3BdCgwIuhHiw",
+    authDomain: "project-aachal.firebaseapp.com",
+    projectId: "project-aachal",
+    storageBucket: "project-aachal.firebasestorage.app",
+    messagingSenderId: "119996673559",
+    appId: "1:119996673559:web:295f009931c1584bea7652",
+    measurementId: "G-HLKVEHP2WX"
+  };
+
+  // Initialize Firebase (old syntax)
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="./script.js"></script>
+</html>
